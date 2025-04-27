@@ -24,7 +24,7 @@ else:
     
 print('Retrieving', url)
 uh = urllib.request.urlopen(url).read().decode()
-#data = uh.read().decode()
+
 js = json.loads(uh)
 
 b = 0
